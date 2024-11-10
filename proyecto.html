@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babyshop</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="icon" href="favicon.jpg" type="jpg">
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+
+<body>
+
+    <header class="animated-header">
+        <h1>babyShop</h1>
+        <p>Una Tiendas Para Niños</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="menu" data-seccion="inicio">Inicio</a></li>
+            <li>
+                <a href="#">Servicios</a>
+                <ul class="submenu">
+                    <li><a href="#" class="menu" data-seccion="desarrollo">Ropa Infantil Niños</a></li>
+                    <li><a href="#" class="menu" data-seccion="diseno">Ropa Infantil Niñas</a></li>
+                    <li><a href="#" class="menu" data-seccion="marketing">Tienda Gneral</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="menu" data-seccion="contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div id="inicio" class="seccion">
+        <h2>Productos</h2>
+        <p>Bienvenido a nuestra página</p>
+
+        <div id="productosContainer" class="productos"></div>
+
+    </div>
+
+    <div id="desarrollo" class="seccion">
+        <h2>Desarrollo Web</h2>
+        <p>Ofrecemos servicios de desarrollo web profesional.</p>
+    </div>
+
+    <div id="diseno" class="seccion">
+        <h2>Diseño Gráfico</h2>
+        <p>Tenemos expertos en diseño gráfico a tu disposición.</p>
+    </div>
+
+    <div id="marketing" class="seccion">
+        <h2>Marketing Digital</h2>
+        <p>Impulsa tu negocio con nuestras estrategias de marketing digital.</p>
+    </div>
+
+    <div id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <p>Puedes contactarnos a través de este formulario.</p>
+        <form action="/enviar" method="post" class="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Asunto:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+    <script>
+        $(document).ready(function () {
+            $("nav li").hover(function () {
+                $(this).find(".submenu").stop(true, true).slideDown();
+            }, function () {
+                $(this).find(".submenu").stop(true, true).slideUp();
+            });
+   
+
+            $(".menu").click(function (e) {
+                e.preventDefault();
+                const seccionID = $(this).data("seccion");
+                $(".seccion").hide();
+                $("#" + seccionID).fadeIn();
+
+                
+                if (seccionID === "inicio") {
+                    cargarProductos('ropa.json'); 
+                }
+            });
+            
+            $(".categoria").click(function (e) {
+                e.preventDefault();
+                const categoria = $(this).data("categoria");
+                cargarProductos(categoria + ".json");
+            });
+
+            // Función para cargar productos con AJAX
+            function cargarProductos(archivo) {
+                $.ajax({
+                    url: archivo,
+                    dataType: "json",
+                    success: function (data) {
+                        let productosHTML = '';
+                        data.forEach(function (producto) {
+                            productosHTML += `
+                                <div class="producto">
+                                    <img src="${producto.imagen}" alt="${producto.nombre}">
+                                    <h3>${producto.nombre}</h3>
+                                    <p>${producto.descripcion}</p>
+                                    <button class="Button">Comprar</button>
+                                    
+                                </div>`;
+                        });
+                        $("#productosContainer").html(productosHTML);
+                    },
+                    error: function () {
+                        $("#productosContainer").html("<p>Error al cargar los productos.</p>");
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+
+</html>
