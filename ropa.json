@@ -1,76 +1,76 @@
 [
     {
-        "imagen": "producto1.jpg",
+        "imagen": "img/producto1.jpg",
         "nombre": "Producto 1",
         "descripcion": "Descripción breve del producto 1."
     },
     {
-        "imagen": "producto2.jpg",
+        "imagen": "img/producto2.jpg",
         "nombre": "Producto 2",
         "descripcion": "Descripción breve del producto 2."
     },
     {
-        "imagen": "producto3.jpg",
+        "imagen": "img/producto3.jpg",
         "nombre": "Producto 3",
         "descripcion": "Descripción breve del producto 3."
     },
     {
-        "imagen": "producto4.png",
+        "imagen": "img/producto4.png",
         "nombre": "Producto 4",
         "descripcion": "Descripción breve del producto 4."
     },
     {
-        "imagen": "producto4.png",
+        "imagen": "img/producto4.png",
         "nombre": "Producto 5",
         "descripcion": "Descripción breve del producto 4."
     },
     {
-        "imagen": "producto4.png",
+        "imagen": "img/producto4.png",
         "nombre": "Producto 6",
         "descripcion": "Descripción breve del producto 4."
     },
     {
-        "imagen": "producto4.png",
+        "imagen": "img/producto4.png",
         "nombre": "Producto 7",
         "descripcion": "Descripción breve del producto 4."
     },
     {
-        "imagen": "producto4.png",
+        "imagen": "img/producto4.png",
         "nombre": "Producto 8",
         "descripcion": "Descripción breve del producto 4."
     },
     {
-        "imagen": "producto4.png",
+        "imagen": "img/producto4.png",
         "nombre": "Producto 9",
         "descripcion": "Descripción breve del producto 4."
     },
     {
-        "imagen": "producto4.png",
+        "imagen": "img/producto4.png",
         "nombre": "Producto 10",
         "descripcion": "Descripción breve del producto 4."
     },
     {
-        "imagen": "producto4.png",
+        "imagen": "img/producto4.png",
         "nombre": "Producto 11",
         "descripcion": "Descripción breve del producto 4."
     },
     {
-        "imagen": "producto4.png",
+        "imagen": "img/producto4.png",
         "nombre": "Producto 12",
         "descripcion": "Descripción breve del producto 4."
         
     },
     {
-        "imagen": "producto4.png",
+        "imagen": "img/producto4.png",
         "nombre": "Producto 13",
         "descripcion": "Descripción breve del producto 4."
     },
     {
-        "imagen": "producto4.png",
+        "imagen": "img/producto4.png",
         "nombre": "Producto 14",
         "descripcion": "Descripción breve del producto 4."
     },{
-        "imagen": "producto4.png",
+        "imagen": "img/producto4.png",
         "nombre": "Producto 15",
         "descripcion": "hola mundo"
     }
