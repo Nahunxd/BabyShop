@@ -1,77 +1,77 @@
 [
     {
         "imagen": "img/producto1.jpg",
-        "nombre": "Producto 1",
-        "descripcion": "Descripción breve del producto 1."
+        "nombre": "Moda navideña para los pequeños del hogar",
+        "descripcion": "Ropa cómoda y con estilo para niños y niñas: conjuntos ideales que combinan calidad."
     },
     {
         "imagen": "img/producto2.jpg",
-        "nombre": "Producto 2",
-        "descripcion": "Descripción breve del producto 2."
+        "nombre": "Moda infantil encantadora y cómoda",
+        "descripcion": "Estilo y frescura para los días soleados: mono ligero combinado con sandalia"
     },
     {
         "imagen": "img/producto3.jpg",
-        "nombre": "Producto 3",
-        "descripcion": "Descripción breve del producto 3."
+        "nombre": "Elegancia y ternura en cada detalle: ",
+        "descripcion": "encantador vestido primaveral lleno de frescura,  y para su niño  pantalón de tela, camisa y zapatos. ¡Perfectos para ocasiones especiales! "
     },
     {
-        "imagen": "img/producto4.png",
-        "nombre": "Producto 4",
-        "descripcion": "Descripción breve del producto 4."
+        "imagen": "img/producto4.jpg",
+        "nombre": "Elegancia y comodidad",
+        "descripcion": "Elegante y cómoda, camisa tipo polo"
     },
     {
-        "imagen": "img/producto4.png",
-        "nombre": "Producto 5",
-        "descripcion": "Descripción breve del producto 4."
+        "imagen": "img/producto5.jpg",
+        "nombre": "Estilo casual",
+        "descripcion": "camisa tipo polo color verde"
     },
     {
-        "imagen": "img/producto4.png",
-        "nombre": "Producto 6",
-        "descripcion": "Descripción breve del producto 4."
+        "imagen": "img/producto6.jpg",
+        "nombre": " Edición Especial Navidad",
+        "descripcion": "estilo clásico del jean con el espíritu festivo"
     },
     {
-        "imagen": "img/producto4.png",
-        "nombre": "Producto 7",
-        "descripcion": "Descripción breve del producto 4."
+        "imagen": "img/producto7.jpg",
+        "nombre": "zapatos! combinación perfecta",
+        "descripcion": "Con un diseño moderno en gris, cuenta con una correa ajustable para un alcalce perfecto"
     },
     {
-        "imagen": "img/producto4.png",
-        "nombre": "Producto 8",
-        "descripcion": "Descripción breve del producto 4."
+        "imagen": "img/producto8.jpg",
+        "nombre": " Tenis para Niño",
+        "descripcion": "proporcionan máxima comodidad y soporte para todo el día"
     },
     {
-        "imagen": "img/producto4.png",
-        "nombre": "Producto 9",
-        "descripcion": "Descripción breve del producto 4."
+        "imagen": "img/producto9.jpg",
+        "nombre": "toque clásico y elegante, estos zapatos tipo burros color café",
+        "descripcion": "Confeccionados en materiales suaves pero duraderos, ofrecen comodidad y estilo a tu pequeño"
     },
     {
-        "imagen": "img/producto4.png",
-        "nombre": "Producto 10",
-        "descripcion": "Descripción breve del producto 4."
+        "imagen": "img/producto10.jpg",
+        "nombre": "Zapatillas color cafe para niño",
+        "descripcion": " como un toque de color y estilo único, estas zapatillas ofrecen comodidad y calidez durante todo el día. "
     },
     {
-        "imagen": "img/producto4.png",
-        "nombre": "Producto 11",
-        "descripcion": "Descripción breve del producto 4."
+        "imagen": "img/producto11.jpg",
+        "nombre": "Vestido de Niña de Campanas Color Azul",
+        "descripcion": "perfecto para cualquier ocasión especial. Con un diseño encantador de campanas que le da un toque de elegancia "
     },
     {
-        "imagen": "img/producto4.png",
-        "nombre": "Producto 12",
-        "descripcion": "Descripción breve del producto 4."
-        
+        "imagen": "img/producto12.jpg",
+        "nombre": "Vestido de Niña Color Dorado ",
+        "descripcion": "haz pequeña brille esta Navidad con este deslumbrante vestido color dorado. Con un diseño festivo y elegante,"
     },
     {
-        "imagen": "img/producto4.png",
-        "nombre": "Producto 13",
-        "descripcion": "Descripción breve del producto 4."
+        "imagen": "img/producto13.jpg",
+        "nombre": "Zapatos para tu princesa",
+        "descripcion": "Haz que tu pequeña se sienta como una verdadera princesa con Con detalles brillantes y un diseño elegante"
     },
     {
-        "imagen": "img/producto4.png",
-        "nombre": "Producto 14",
-        "descripcion": "Descripción breve del producto 4."
-    },{
-        "imagen": "img/producto4.png",
-        "nombre": "Producto 15",
-        "descripcion": "hola mundo"
+        "imagen": "img/producto14.jpg",
+        "nombre": "camisas y pantalones a tu alcance",
+        "descripcion": "mezcla perfecta de confort y estilo. Hecha con una tela suave pero ligera, ofrece la comodidad"
+    },
+    {
+        "imagen": "img/producto15.jpg",
+        "nombre": "¡este vestido es la elección perfecta para que tu niña brille con estilo!",
+        "descripcion": "Con un diseño único que incluye dos prácticas bolsas al frente y un toque de estilo con un chongo elegante,"
     }
 ]
