@@ -1,0 +1,90 @@
+[
+    {
+        "imagen": "img/producto2.jpg",
+        "nombre": "Moda infantil encantadora y cómoda",
+        "descripcion": "Estilo y frescura para los días soleados: mono ligero combinado con sandalia",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto8.jpg",
+        "nombre": " Tenis para Niño",
+        "descripcion": "proporcionan máxima comodidad y soporte para todo el día",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto11.jpg",
+        "nombre": "Vestido de Niña de Campanas Color Azul",
+        "descripcion": "Perfecto para cualquier ocasión especial. Con un diseño encantador de campanas que le da un toque de elegancia ",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto12.jpg",
+        "nombre": "Vestido de Niña Color Dorado ",
+        "descripcion": "Haz pequeña brille esta Navidad con este deslumbrante vestido color dorado. Con un diseño festivo y elegante,",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto13.jpg",
+        "nombre": "Zapatos para tu princesa",
+        "descripcion": "Haz que tu pequeña se sienta como una verdadera princesa con Con detalles brillantes y un diseño elegante"
+    },
+    {
+        "imagen": "img/producto15.jpg",
+        "nombre": "¡Este vestido es la elección perfecta para que tu niña brille con estilo!",
+        "descripcion": "Con un diseño único que incluye dos prácticas bolsas al frente y un toque de estilo con un chongo elegante,"
+    },
+    {
+        "imagen": "img/a1.jpg",
+        "nombre": "Vestido Polo Clásico Tommy",
+        "descripcion": "Vestido casual tipo polo en color rojo con un detalle blanco en el pecho y cuello de botones.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a2.jpg",
+        "nombre": "Conjunto Festivo Elegante",
+        "descripcion": "Compuesto por un vestido de cuadros con lazo azul en la cintura, una chaqueta roja con botones dorados y zapatos de charol negro.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a3.jpg",
+        "nombre": "Vestido Tropical de Verano",
+        "descripcion": "Estampado floral en tonos azules y rojos, tirantes ajustables y hombros descubiertos. Acompañado de sandalias marrones con flores decorativas.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a4.jpg",
+        "nombre": "Conjunto Casual Infantil Fresco",
+        "descripcion": "Conjunto casual para niña compuesto por una camisa ligera de tela suave",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a6.jpg",
+        "nombre": "Vestido Floral para Bebé con Sandalias",
+        "descripcion": "Vestido para bebé de 4 meses con estampado floreado en tonos vibrantes,",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a7.jpg",
+        "nombre": "Vestido Floral Azul para Bebés",
+        "descripcion": "Encantador estampado floral sobre un fondo azul.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a9.jpg",
+        "nombre": "Vestido Blanco Clásico",
+        "descripcion": "Vestido blanco para niña de la marca Tommy Hilfiger, con diseño elegante y minimalista.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a10.jpg",
+        "nombre": "Vestido Azul Clásico Hilfiger",
+        "descripcion": "Perfecto para eventos especiales o uso casual refinado.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a12.jpg",
+        "nombre": "Vestido Rosado Tierno para Bebés",
+        "descripcion": "Su diseño tierno lo hace ideal para ocasiones especiales",
+        "referencia": "img1.html"
+    }
+]

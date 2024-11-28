@@ -1,0 +1,115 @@
+[
+    {
+        "imagen": "img/producto4.jpg",
+        "nombre": "Elegancia y comodidad",
+        "descripcion": "Elegante y cómoda, camisa tipo polo",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto5.jpg",
+        "nombre": "Estilo casual",
+        "descripcion": "Camisa tipo polo color verde",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto6.jpg",
+        "nombre": " Edición Especial Navidad",
+        "descripcion": "estilo clásico del jean con el espíritu festivo",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto7.jpg",
+        "nombre": "Zapatos! combinación perfecta",
+        "descripcion": "Con un diseño moderno en gris, cuenta con una correa ajustable para un alcalce perfecto",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto9.jpg",
+        "nombre": "Toque clásico y elegante, estos zapatos tipo burros color café",
+        "descripcion": "Confeccionados en materiales suaves pero duraderos, ofrecen comodidad y estilo a tu pequeño",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto10.jpg",
+        "nombre": "Zapatillas color cafe para niño",
+        "descripcion": "Como un toque de color y estilo único, estas zapatillas ofrecen comodidad y calidez durante todo el día. ",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto14.jpg",
+        "nombre": "Camisas y pantalones a tu alcance",
+        "descripcion": "Mezcla perfecta de confort y estilo. Hecha con una tela suave pero ligera, ofrece la comodidad"
+    },
+    {
+        "imagen": "img/o1.jpg",
+        "nombre": "Camisa a Rayas Café Hope & Henry",
+        "descripcion": "Un diseño clásico y elegante, ideal para ocasiones informales o semi-formales.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o2.jpg",
+        "nombre": "Nocturno Infantil",
+        "descripcion": "Diseñado especialmente para niños. Ideal para asegurar una buena noche de descanso,",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o3.jpg",
+        "nombre": "Pijama Peanuts para Bebé",
+        "descripcion": "Confeccionada en tela suave y cómoda, ideal para una noche tranquila.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o4.jpg",
+        "nombre": "Especial para Navidad",
+        "descripcion": "Para que tu bebes sueñen como los que son principes",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o12.jpg",
+        "nombre": "Suéter Navideño Café Infanti",
+        "descripcion": "Para mantener a tu niño abrigado durante las fiestas.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o6.jpg",
+        "nombre": "Conjunto Casual Calvin Klein para Niño",
+        "descripcion": "Conjunto elegante para niño compuesto por una camisa de la marca Calvin Klein, un pantalón a juego y zapatos tipo tenis.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o8.jpg",
+        "nombre": "Mameluco Disney para Bebé",
+        "descripcion": "Mameluco para bebé con estilo Disney, con divertidos estampados de personajes icónicos.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o9.jpg",
+        "nombre": "Conjunto Casual Tommy para Niño",
+        "descripcion": "Conjunto elegante para niño compuesto por una camisa de la marca Tommy, un pantalón a juego y zapatos tipo tenis.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o4.jpg",
+        "nombre": "Conjunto Casual Calvin Klein para Niño",
+        "descripcion": "Conjunto elegante para niño compuesto por una camisa de la marca Calvin Klein, un pantalón a juego y zapatos tipo tenis.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o14.jpg",
+        "nombre": "Termo Spider-Man para Niño",
+        "descripcion": "Ideal para mantener las bebidas de tu niño frescas o calientes por más tiempo.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o15.jpg",
+        "nombre": "Coche Silla 2 en 1 para Bebé",
+        "descripcion": "Con características de seguridad, comodidad y facilidad de uso, ideal para los paseos",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o13.jpg",
+        "nombre": "Pijama Navideña Infantil ",
+        "descripcion": "Pijama navideña para niño con rayas verdes sobre fondo blanco, con un diseño festiv",
+        "referencia": "img1.html"
+    }
+]

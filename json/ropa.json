@@ -1,0 +1,216 @@
+[
+    {
+        "imagen": "img/producto1.jpg",
+        "nombre": "Moda navideña para los pequeños del hogar",
+        "descripcion": "Ropa cómoda y con estilo para niños y niñas: conjuntos ideales que combinan calidad.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto2.jpg",
+        "nombre": "Moda infantil encantadora y cómoda",
+        "descripcion": "Estilo y frescura para los días soleados: mono ligero combinado con sandalia",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto3.jpg",
+        "nombre": "Elegancia y ternura en cada detalle: ",
+        "descripcion": "encantador vestido primaveral lleno de frescura,  y para su niño  pantalón de tela, camisa y zapatos. ¡Perfectos para ocasiones especiales! "
+    },
+    {
+        "imagen": "img/producto4.jpg",
+        "nombre": "Elegancia y comodidad",
+        "descripcion": "Elegante y cómoda, camisa tipo polo",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto5.jpg",
+        "nombre": "Estilo casual",
+        "descripcion": "Camisa tipo polo color verde",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto6.jpg",
+        "nombre": " Edición Especial Navidad",
+        "descripcion": "Estilo clásico del jean con el espíritu festivo",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto7.jpg",
+        "nombre": "Zapatos! combinación perfecta",
+        "descripcion": "Con un diseño moderno en gris, cuenta con una correa ajustable para un alcalce perfecto",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto8.jpg",
+        "nombre": " Tenis para Niño",
+        "descripcion": "Proporcionan máxima comodidad y soporte para todo el día",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto9.jpg",
+        "nombre": "Toque clásico y elegante, estos zapatos tipo burros color café",
+        "descripcion": "Confeccionados en materiales suaves pero duraderos, ofrecen comodidad y estilo a tu pequeño",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto10.jpg",
+        "nombre": "Zapatillas color cafe para niño",
+        "descripcion": "Como un toque de color y estilo único, estas zapatillas ofrecen comodidad y calidez durante todo el día. ",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto11.jpg",
+        "nombre": "Vestido de Niña de Campanas Color Azul",
+        "descripcion": "perfecto para cualquier ocasión especial. Con un diseño encantador de campanas que le da un toque de elegancia ",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto12.jpg",
+        "nombre": "Vestido de Niña Color Dorado ",
+        "descripcion": "Haz pequeña brille esta Navidad con este deslumbrante vestido color dorado. Con un diseño festivo y elegante,",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/producto13.jpg",
+        "nombre": "Zapatos para tu princesa",
+        "descripcion": "Haz que tu pequeña se sienta como una verdadera princesa con Con detalles brillantes y un diseño elegante"
+    },
+    {
+        "imagen": "img/producto14.jpg",
+        "nombre": "Camisas y pantalones a tu alcance",
+        "descripcion": "Mezcla perfecta de confort y estilo. Hecha con una tela suave pero ligera, ofrece la comodidad"
+    },
+    {
+        "imagen": "img/producto15.jpg",
+        "nombre": "¡Este vestido es la elección perfecta para que tu niña brille con estilo!",
+        "descripcion": "Con un diseño único que incluye dos prácticas bolsas al frente y un toque de estilo con un chongo elegante,"
+    }
+    ,
+    {
+        "imagen": "img/a1.jpg",
+        "nombre": "Vestido Polo Clásico Tommy",
+        "descripcion": "Vestido casual tipo polo en color rojo con un detalle blanco en el pecho y cuello de botones.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a2.jpg",
+        "nombre": "Conjunto Festivo Elegante",
+        "descripcion": "Compuesto por un vestido de cuadros con lazo azul en la cintura, una chaqueta roja con botones dorados y zapatos de charol negro.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a3.jpg",
+        "nombre": "Vestido Tropical de Verano",
+        "descripcion": "Estampado floral en tonos azules y rojos, tirantes ajustables y hombros descubiertos. Acompañado de sandalias marrones con flores decorativas.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a4.jpg",
+        "nombre": "Conjunto Casual Infantil Fresco",
+        "descripcion": "Conjunto casual para niña compuesto por una camisa ligera de tela suave",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a6.jpg",
+        "nombre": "Vestido Floral para Bebé con Sandalias",
+        "descripcion": "Vestido para bebé de 4 meses con estampado floreado en tonos vibrantes,",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a7.jpg",
+        "nombre": "Vestido Floral Azul para Bebés",
+        "descripcion": "Encantador estampado floral sobre un fondo azul.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a9.jpg",
+        "nombre": "Vestido Blanco Clásico",
+        "descripcion": "Vestido blanco para niña de la marca Tommy Hilfiger, con diseño elegante y minimalista.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a10.jpg",
+        "nombre": "Vestido Azul Clásico Hilfiger",
+        "descripcion": "Perfecto para eventos especiales o uso casual refinado.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/a12.jpg",
+        "nombre": "Vestido Rosado Tierno para Bebés",
+        "descripcion": "Su diseño tierno lo hace ideal para ocasiones especiales",
+        "referencia": "img1.html"
+    }
+    ,
+    {
+        "imagen": "img/o1.jpg",
+        "nombre": "Camisa a Rayas Café Hope & Henry",
+        "descripcion": "Un diseño clásico y elegante, ideal para ocasiones informales o semi-formales.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o2.jpg",
+        "nombre": "Nocturno Infantil",
+        "descripcion": "Diseñado especialmente para niños. Ideal para asegurar una buena noche de descanso,",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o3.jpg",
+        "nombre": "Pijama Peanuts para Bebé",
+        "descripcion": "Confeccionada en tela suave y cómoda, ideal para una noche tranquila.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o12.jpg",
+        "nombre": "Especial para Navidad",
+        "descripcion": "Para que tu bebes sueñen como los que son principes",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o5.jpg",
+        "nombre": "Suéter Navideño Café Infanti",
+        "descripcion": "Para mantener a tu niño abrigado durante las fiestas.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o7.jpg",
+        "nombre": "Conjunto Casual Calvin Klein para Niño",
+        "descripcion": "Conjunto elegante para niño compuesto por una camisa de la marca Calvin Klein, un pantalón a juego y zapatos tipo tenis.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o8.jpg",
+        "nombre": "Mameluco Disney para Bebé",
+        "descripcion": "Mameluco para bebé con estilo Disney, con divertidos estampados de personajes icónicos.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o9.jpg",
+        "nombre": "Conjunto Casual Tommy para Niño",
+        "descripcion": "Conjunto elegante para niño compuesto por una camisa de la marca Tommy, un pantalón a juego y zapatos tipo tenis.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o4.jpg",
+        "nombre": "Conjunto Casual Calvin Klein para Niño",
+        "descripcion": "Conjunto elegante para niño compuesto por una camisa de la marca Calvin Klein, un pantalón a juego y zapatos tipo tenis.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o14.jpg",
+        "nombre": "Termo Spider-Man para Niño",
+        "descripcion": "Ideal para mantener las bebidas de tu niño frescas o calientes por más tiempo.",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o15.jpg",
+        "nombre": "Coche Silla 2 en 1 para Bebé",
+        "descripcion": "Con características de seguridad, comodidad y facilidad de uso, ideal para los paseos",
+        "referencia": "img1.html"
+    },
+    {
+        "imagen": "img/o13.jpg",
+        "nombre": "Pijama Navideña Infantil ",
+        "descripcion": "Pijama navideña para niño con rayas verdes sobre fondo blanco, con un diseño festivo",
+        "referencia": "img1.html"
+    }
+]

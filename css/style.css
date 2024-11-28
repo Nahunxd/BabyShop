@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url(img/Fondo-Login.jpg);
+    background-color: rgb(206, 206, 206);
     background-size: cover;
     background-position: center;
 }
@@ -25,18 +25,20 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 99;
+    background-color: gray; /* Fondo gris para la cinta */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombras para dar profundidad */
 }
 
 .Logo {
     font-size: 2em;
-    color: #fff;
+    color: #000000;
     user-select: none;
 }
 
 .navigation a {
     position: relative;
     font-size: 1.1em;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-weight: 500;
     margin-left: 40px;
