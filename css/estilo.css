@@ -1,0 +1,503 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(206, 206, 206);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('https://images.ctfassets.net/dvf03q5b4rnw/6n4pfghgiGacCYkeg5M8Gc/aa0f131417aff2e41c11c963417ba548/babyshop_logo.svg?w=1074&h=346&q=80');
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+
+header h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+    /* Blanco puro para mayor contraste */
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #f5f5eb;
+    /* Blanco hueso */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: gray;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    position: relative;
+}
+
+nav a {
+    display: block;
+    padding: 14px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.submenu a {
+    padding: 10px;
+    text-align: left;
+}
+
+.submenu a:hover {
+    background-color: #575757;
+}
+
+.seccion {
+    display: none;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.animated-header {
+    background-color: grey;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.animated-header:hover {
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.05);
+}
+
+.animated-header h1 {
+    font-size: 2.5em;
+    transition: font-size 0.5s ease;
+}
+
+.animated-header p {
+    font-size: 1.2em;
+}
+
+.animated-header:hover h1 {
+    font-size: 2.8em;
+}
+
+.seccion {
+    text-align: center;
+    background: rgb(193, 192, 192);
+    color: black;
+    padding: 100px;
+    /* Aumentar el padding para más espacio interno */
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    /* Aumentar el ancho máximo */
+    margin: 100px auto;
+    /* Centrar el div y reducir el margen superior/inferior */
+}
+
+.seccion h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.seccion p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 0.5fr));
+    gap: 50px;
+}
+
+.producto {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: black;
+}
+
+.producto:hover {
+    transform: scale(1.2, 1.2);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.producto p {
+    font-size: 0.9em;
+}
+
+/* Estilos generales para el formulario */
+#contacto {
+    width: 50%;
+    max-width: auto;
+    margin: 200px;
+    padding: 20px;
+    background-color: #929090;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#contacto h2,
+#contacto p {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos del formulario */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 1em;
+    color: #666;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #101010;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+/* Efecto de enfoque en los campos de entrada */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #2f302f;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.3);
+    outline: none;
+}
+
+/* Botón de envío */
+.contact-form button {
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Animación en el botón */
+.contact-form button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Animación de entrada de los campos */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    animation: fadeInUp 0.5s ease both;
+}
+
+/* Diferentes demoras para cada campo */
+.contact-form label:nth-child(1),
+.contact-form input:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.contact-form label:nth-child(3),
+.contact-form input:nth-child(4) {
+    animation-delay: 0.2s;
+}
+
+.contact-form label:nth-child(5),
+.contact-form textarea {
+    animation-delay: 0.3s;
+}
+
+.contact-form button {
+    animation-delay: 0.4s;
+}
+
+
+.img2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    margin: 0;
+  }
+  
+  .img2 {
+    max-width: 35%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .Button{
+    background-color:rgb(33, 136, 253);
+    color:#fff;
+    border-radius: 15px;
+    font-size: 25px;
+    box-sizing: content-box;
+    border-color:rgb(33, 136, 253);
+  }
+
+  .Button:hover{
+    background-color:rgb(91, 214, 91);
+    color: white;
+    border-radius: 15px;
+    border-color:rgb(91, 214, 91);
+    font-family: Arial, Helvetica, sans-serif;
+    transform: scale(1.1,1.1) ;
+  }
+
+
+.carrito{
+    height: 40px;
+    width: 40px;
+
+}
+
+
+.informacionBasica {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #9a9a9a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.section-title {
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #0e0e0e;
+    margin: 10px auto;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.text {
+    max-width: 600px;
+    text-align: justify;
+    animation: slideUp 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.babyshop-footer {
+    background-color: #808080; /* Color gris */
+    color: #000;
+    padding: 10px;
+    font-size: 14px;
+    
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-section {
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .social-section .social-icons {
+    display: 40px;
+    gap: 25px;
+    justify-content:center;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    gap:10px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  
+  
+  .footer-logo {
+    width: 100px; /* Reduce el tamaño del logo */
+    height: 100px; /* Mantiene la proporción original */
+  }
+  
+   .social-icons {
+    display: flex;
+    gap: 10px; /* Aumenta el espacio entre los íconos */
+    justify-content: center;
+  }
+
+  .social-icon {
+    margin: 0; /* Añade margen horizontal entre los íconos */
+  }
+  
+  .babyshop-footer {
+    background-color: #808080; /* Fondo gris */
+    color: #000;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    text-align: center;
+  }
+  
+  .footer-logo {
+    width: 90px; /* Ajustar tamaño del logo */
+    height: 80px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px; /* Espaciado entre íconos */
+    justify-content: center;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+    margin: 0; /* Añade margen horizontal entre los íconos */
+  }
+
+  .precio {
+    font-size: 1.5em; /* Tamaño grande */
+    color: #412729; /* Color llamativo */
+    font-weight: bold; /* Texto en negrita */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+    border: 2px solid #44cc88; /* Borde llamativo */
+    padding: 5px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    background: #fff1f0; /* Fondo suave */
+    display: inline-block; /* Se adapta al contenido */
+}
+  

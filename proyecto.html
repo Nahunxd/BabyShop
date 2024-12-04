@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BabyShop - Una tienda especializada en ropa y productos para niños">
+    <title>BabyShop</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="icon" href="img/favicon.jpg" type="image/jpg">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+
+    <header class="animated-header">
+        <h1>BabyShop</h1>
+        <p>Una Tienda Para Niños</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="menu" data-seccion="inicio">Inicio</a></li>
+            <li>
+                <a href="#">Servicios</a>
+                <ul class="submenu">
+                    <li><a href="#" class="menu" data-seccion="ninos">Ropa Infantil Niños</a></li>
+                    <li><a href="#" class="menu" data-seccion="ninas">Ropa Infantil Niñas</a></li>
+                    <li><a href="#" class="menu" data-seccion="tgeneral">Ropa niñas y niños</a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="menu" data-seccion="contacto">Contacto</a></li>
+            <li><a href="#" class="menu" data-seccion="cerrar sesion">Cerrar Sesion</a></li>
+            <li><img src="\img\Carrito.png" alt="Carrito" class="carrito" id="compras"></li>
+        </ul>
+        </div>
+    </nav>
+
+    <div id="inicio" class="seccion">
+        <h2>Productos</h2>
+        <p>Bienvenido a nuestra página</p>
+        <div id="productosContainerInicio" class="productos"></div>
+    </div>
+
+    <div id="ninos" class="seccion">
+        <h2>Ropa Infantil Niños</h2>
+        <p>Ofrecemos una amplia variedad de ropa para niños.</p>
+        <div id="productosContainerNinos" class="productos"></div>
+    </div>
+
+    <div id="ninas" class="seccion">
+        <h2>Ropa Infantil Niñas</h2>
+        <p>Tenemos los mejores estilos para niñas.</p>
+        <div id="productosContainerNinas" class="productos"></div>
+    </div>
+
+    <div id="tgeneral" class="seccion">
+        <h2>Tienda General</h2>
+        <p>Encuentra todos nuestros productos disponibles.</p>
+        <div id="productosContainerTgeneral" class="productos"></div>
+    </div>
+
+    <div id="contacto" class="seccion">
+        <h2>Contacto</h2>
+        <p>Puedes contactarnos a través de este formulario.</p>
+        <form action="/enviar" method="post" class="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Asunto:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <div id="informacionBasica" class="informacionBasica">
+        <section>
+            <h2 class="section-title">Sobre Nosotros</h2>
+            <div class="content">
+                <img src="https://images.ctfassets.net/dvf03q5b4rnw/6n4pfghgiGacCYkeg5M8Gc/aa0f131417aff2e41c11c963417ba548/babyshop_logo.svg?w=1074&h=346&q=80"
+                    alt="logoBabyShop" class="logo">
+                     <br>
+                <p class="text">
+                    En BabyShop, somos mucho más que una plataforma de compras para padres. Nos enorgullece ser un
+                    recurso
+                    integral que acompaña a las familias en cada etapa de su viaje de maternidad y crianza. Desde el
+                    momento
+                    en
+                    que descubres que vas a ser padre hasta que tus hijos crecen y alcanzan nuevos hitos, estamos aquí
+                    para
+                    brindarte el apoyo, la orientación y los recursos que necesitas.
+                    Ofrecemos una amplia gama de productos cuidadosamente seleccionados para bebés, y niños, como
+                    artículos
+                    informativos e interactivos, asegurándonos de proporcionar contenido relevante y práctico que ayude
+                    a
+                    los
+                    padres a sentirse seguros y capacitados en su papel.
+                    Nuestro equipo está compuesto por profesionales apasionados y comprometidos que comprenden las
+                    alegrías
+                    y
+                    los desafíos de la crianza.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-title">Nuestros Valores y Misión</h2>
+            <div class="content">
+                <p class="text">
+                    En BabyShop, creemos que los primeros años de vida son fundamentales para el desarrollo de los
+                    niños.
+                    Por eso, seleccionamos cada producto con mucho cuidado, buscando siempre la calidad, la seguridad y
+                    el
+                    diseño. Queremos que los pequeños se sientan cómodos, felices y seguros en cada etapa de su
+                    crecimiento.
+                    <br>
+                    Pero BabyShop es más que una tienda. Es un proyecto de vida que nace del amor por los niños y la
+                    familia. Queremos acompañar a los padres en esta maravillosa aventura, ofreciéndoles todo lo que
+                    necesitan para criar a sus hijos con amor y dedicación.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-title">Historia</h2>
+            <div class="content">
+                <p class="text">
+                    En 2014, mientras acariciaba su pancita y soñaba con el futuro de su bebé, Laura Gómez, una
+                    diseñadora
+                    web de alma creativa, se enfrentó a una realidad frustrante: encontrar productos para su pequeño era
+                    una
+                    verdadera odisea. Las interminables jornadas buscando la ropita perfecta, los juguetes más seguros y
+                    los
+                    artículos de primera necesidad la llevaron a una conclusión: algo tenía que cambiar.
+                 <br>
+                    Con el corazón lleno de ilusión y la determinación de hacer las cosas de manera diferente, Laura
+                    decidió
+                    crear un espacio en línea donde los padres pudieran encontrar todo lo que necesitaban para sus
+                    hijos,
+                    sin estrés ni complicaciones. Así nació BabyShop, un proyecto que iba mucho más allá de una simple
+                    tienda en línea. Era un sueño hecho realidad, un abrazo cálido para todas las familias en ese
+                    emocionante viaje de la paternidad.
+
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <footer class="babyshop-footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="https://images.ctfassets.net/dvf03q5b4rnw/6n4pfghgiGacCYkeg5M8Gc/aa0f131417aff2e41c11c963417ba548/babyshop_logo.svg?w=1074&h=346&q=80" alt="Logo BabyShop" class="footer-logo">
+              </div>
+        
+          <div class="footer-section">
+            <div class="social-icons">
+              <a href="https://www.facebook.com" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/256/124/124010.png" alt="Facebook" class="social-icon">
+              </a>
+              <a href="https://www.instagram.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png" alt="Instagram" class="social-icon">
+              </a>
+              <a href="https://www.whatsapp.com" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1022px-WhatsApp.svg.png" alt="WhatsApp" class="social-icon">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+      </footer>
+
+    <script>
+        $(document).ready(function () {
+            $("nav li").hover(function () {
+                $(this).find(".submenu").stop(true, true).slideDown();
+            }, function () {
+                $(this).find(".submenu").stop(true, true).slideUp();
+            });
+
+            $(".menu").click(function (e) {
+                e.preventDefault();
+                const seccionID = $(this).data("seccion");
+                $(".seccion").hide();
+                $("#" + seccionID).fadeIn();
+
+                // Ocultar Historia y Sobre Nosotros si se seleccionan Inicio, Contacto o Servicios
+                if (seccionID === "inicio" || seccionID === "contacto" || seccionID === "ninos" || seccionID === "ninas" || seccionID === "tgeneral") {
+                    $("#informacionBasica").hide(); // Oculta la sección de Información Básica
+                } else {
+                    $("#informacionBasica").show(); // Muestra de nuevo si se seleccionan otras secciones
+                }
+
+                if (seccionID === "inicio") {
+                    cargarProductos('json/ropa.json', "#productosContainerInicio");
+                }
+
+                if (seccionID === "tgeneral") {
+                    cargarProductos('json/ropa.json', "#productosContainerTgeneral");
+                }
+
+                if (seccionID === "ninos") {
+                    cargarProductos('json/ropa_ninos.json', "#productosContainerNinos");
+                }
+                if (seccionID === "ninas") {
+                    cargarProductos('json/ropa_ninas.json', "#productosContainerNinas");
+                }
+            });
+
+            // Función para cargar productos con AJAX
+            function cargarProductos(archivo, contenedor) {
+                $.ajax({
+                    url: archivo,
+                    dataType: "json",
+                    success: function (data) {
+                        let productosHTML = '';
+                        data.forEach(function (producto) {
+                            productosHTML += `
+                                <div class="producto">
+                                    <a href="${producto.referencia}" rel="noopener noreferrer">
+                                        <img src="${producto.imagen}" alt="${producto.nombre} - Imagen de ${producto.nombre}">
+                                    </a>
+                                    <h3 id="product">${producto.nombre}</h3>
+                                    <p id="descrip">${producto.descripcion}</p>
+                                    <h4 class="precio">L ${producto.precio}</h4>
+                                    
+                                    <button class="Button" id="Compras">Comprar</button>
+                                </div>`;
+                        });
+                        $(contenedor).html(productosHTML);
+                    },
+                    error: function () {
+                        $(contenedor).html("<p>Error al cargar los productos.</p>");
+                    }
+                });
+            }
+        });
+    </script>
+    <script src="/js/carrito.js"></script>
+</body>
+
+</html>
