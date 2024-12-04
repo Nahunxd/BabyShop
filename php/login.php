@@ -1,30 +1,67 @@
 <?php
-// Se utiliza para llamar al archivo que contiene la conexión a la base de datos
-require 'conexion.php';
+$user = "babyshop";
+$pass = "babyshop1234";
+$host = "mysql.webcindario.com";
 
-// Validamos que el formulario y el botón login hayan sido presionados
-if (isset($_POST['btnIniciarSesion'])) {
 
-    // Obtener los valores enviados por el formulario
-    $usuario = $_POST['correo'];
-    $contrasena = $_POST['contrasena'];
+$llave = "m3m0c0d3";
 
-    // Ejecutamos la consulta a la base de datos utilizando la función mysqli_query
-    $sql = "SELECT usuario,contraseña FROM usuariosempleados WHERE usuario = '$usuario' AND contraseña = '$contrasena'";
-    $resultado = mysqli_query($conexion, $sql);
-
-    // Verificamos si la consulta devolvió algún resultado
-    if (mysqli_num_rows($resultado) > 0) {
-        // Iniciamos sesión para el usuario
-        session_start();
-        $_SESSION['usuario'] = $usuario;
-
-        // Redirigimos al usuario a proyecto.html
-        header("Location: ../proyecto.html");
-        exit(); // Importante para evitar que se ejecute más código después de la redirección
-    } else {
-        echo "Usuario o contraseña incorrectos";
+function encrypt($string, $key)
+{
+    $result = '';
+    for ($i = 0; $i < strlen($string); $i++) {
+        $char = substr($string, $i, 1);
+        $keychar = substr($key, ($i % strlen($key)) - 1, 1);
+        $char = chr(ord($char) + ord($keychar));
+        $result .= $char;
     }
+    return base64_encode($result);
 }
-?>
+function decrypt($string, $key)
+{
+    $result = '';
+    $string = base64_decode($string);
+    for ($i = 0; $i < strlen($string); $i++) {
+        $char = substr($string, $i, 1);
+        $keychar = substr($key, ($i % strlen($key)) - 1, 1);
+        $char = chr(ord($char) - ord($keychar));
+        $result .= $char;
+    }
+    return $result;
+}
 
+$mysqli = new mysqli($host, $user, $pass, "babyshop");
+if($mysqli->connect_errno){
+    echo "Lo sentimos, este sitio web esta experimentando problemas";
+    exit;
+}
+
+$user = $_POST["user"];
+$clave = $_POST["pass"];
+
+$Euser = encrypt($user, $llave);
+$Eclave = encrypt($clave, $llave);
+
+$consultaSQL = "SELECT * FROM usuarios WHERE usuario='$Euser' and contrasena='$Eclave'";
+
+$resultado = mysqli_query($mysqli,$consultaSQL);
+
+if (mysqli_num_rows($resultado) > 0) {
+    // Iniciamos sesi?n para el usuario
+    session_start();
+    $_SESSION['usuario'] = $user;
+
+    // Redirigimos al usuario a proyecto.html
+    echo'<script type="text/javascript">
+    
+    window.location.href="proyecto.html";
+    </script>';
+    exit(); // Importante para evitar que se ejecute m?s c?digo despu?s de la redirecci?n
+} else {
+    echo'<script type="text/javascript">
+    alert("Usuario o contrase�a incorrectos");
+    window.location.href="index.html";
+    </script>';
+}
+
+?>

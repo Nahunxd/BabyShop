@@ -1,34 +1,69 @@
 <?php
-// Se utiliza para llamar al archivo que contiene la conexión a la base de datos
-require 'conexion.php';
+$user = "babyshop";
+$pass = "babyshop1234";
+$host = "mysql.webcindario.com";
 
-// Validamos que el formulario y el botón de registro hayan sido presionados
-if (isset($_POST['btnRegistrarse'])) {
+$mysqli = new mysqli($host, $user, $pass, "babyshop");
+if ($mysqli->connect_errno) {
+    echo "Lo sentimos, este sitio web esta experimentando problemas";
+    exit;
+}
 
-    // Obtener los valores enviados por el formulario
-    $usuario = $_POST['Username'];
-    $contrasena = $_POST['contrasena'];
-    $correo = $_POST['correo'];
+$user = $_POST["user"];
+$clave = $_POST["pass"];
+$email = $_POST["email"];
+$rol = 2;
 
-    // Verificar que no haya valores vacíos (opcional)
-    if (empty($usuario) || empty($contrasena) || empty($correo)) {
-        die("Por favor, completa todos los campos.");
+$llave = "m3m0c0d3";
+
+function encrypt($string, $key)
+{
+    $result = '';
+    for ($i = 0; $i < strlen($string); $i++) {
+        $char = substr($string, $i, 1);
+        $keychar = substr($key, ($i % strlen($key)) - 1, 1);
+        $char = chr(ord($char) + ord($keychar));
+        $result .= $char;
     }
+    return base64_encode($result);
+}
 
-    // Insertamos los datos en la base de datos
-    $sql = "INSERT INTO usuariosempleados (idUsuarioEmpleado, usuario, contraseña, correo) 
-            VALUES (null, '$usuario', '$contrasena', '$correo')";
-    $resultado = mysqli_query($conexion, $sql);
+function decrypt($string, $key)
+{
+    $result = '';
+    $string = base64_decode($string);
+    for ($i = 0; $i < strlen($string); $i++) {
+        $char = substr($string, $i, 1);
+        $keychar = substr($key, ($i % strlen($key)) - 1, 1);
+        $char = chr(ord($char) - ord($keychar));
+        $result .= $char;
+    }
+    return $result;
+}
 
-    // Verificar si la consulta se ejecutó correctamente
-    if ($resultado) {
-        // Redirigimos a proyecto.html
-        header("Location: ../proyecto.html");
-        exit(); // Importante: detiene la ejecución posterior del script
+
+$Euser = encrypt($user, $llave);
+$Eclave = encrypt($clave, $llave);
+$Eemail = encrypt($email, $llave);
+
+$consultaSQL = "SELECT * FROM usuarios WHERE usuario='$Euser' or email='$Eemail'";
+
+
+$resultado = mysqli_query($mysqli, $consultaSQL);
+if (mysqli_num_rows($resultado) > 0) {
+    echo '<script type="text/javascript">
+    alert("Ya existe un usuario registrado");
+    window.location.href="registro.html";
+    </script>';
+} else {
+    $consultaSQL = "INSERT INTO usuarios (email,usuario,contrasena,rol) VALUES ('$Eemail','$Euser','$Eclave','$rol')";
+
+    if (mysqli_query($mysqli, $consultaSQL)) {
+        echo '<script type="text/javascript">
+    alert("Usuario creado exitosamente");
+    window.location.href="index.html";
+    </script>';
     } else {
-        // Mostrar error si la inserción falla
-        echo "¡No se puede insertar la información!" . "<br>";
-        echo "Error: " . $sql . "<br>" . mysqli_error($conexion);
+        echo "<p>Error en el servidor</p>";
     }
 }
-?>

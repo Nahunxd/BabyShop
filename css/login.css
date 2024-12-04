@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, gray, #0B0614);
+    height: 100vh;
+}
+.Login{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border-radius: 10px;
+}
+
+.Login h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.Login form{
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+
+form .campos{
+    position: relative;
+    
+    margin: 30px 0;
+}
+
+.campos input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid silver;
+}
+
+.campos label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.campos span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+
+}
+
+
+.campos input:focus ~ label,
+.campos input:valid ~ label{
+    top: -5px;
+    color: black;
+    transition: top 0.3s ease, color 0.3s ease;
+}
+.boton{
+    margin-left: 10px;
+    
+}
+input[type="submit"]{
+    align-content: center;
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #0B0614;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    
+}
+.registro{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+}
+.registro a{
+    color: black;
+    text-decoration: none;
+    
+}

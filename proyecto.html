@@ -218,9 +218,7 @@
                         data.forEach(function (producto) {
                             productosHTML += `
                                 <div class="producto">
-                                    <a href="${producto.referencia}" rel="noopener noreferrer">
-                                        <img src="${producto.imagen}" alt="${producto.nombre} - Imagen de ${producto.nombre}">
-                                    </a>
+                                    <img src="${producto.imagen}" alt="${producto.nombre} - Imagen de ${producto.nombre}">
                                     <h3 id="product">${producto.nombre}</h3>
                                     <p id="descrip">${producto.descripcion}</p>
                                     <h4 class="precio">L ${producto.precio}</h4>
